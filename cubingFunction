@@ -1,0 +1,11 @@
+def cube(x):
+    runningtotal = 0
+    for counter in range(x):
+        runningtotal = x**3
+
+    return runningtotal
+
+toCube = 5
+cubeResult = cube(toCube)
+
+print("The cube of", toCube, "is equal to", cubeResult)
